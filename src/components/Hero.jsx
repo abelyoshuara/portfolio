@@ -58,7 +58,7 @@ export default function Hero() {
             className="flex items-center px-5 py-2 border border-transparent rounded-lg shadow-sm text-lg font-medium text-white bg-cyan-700 hover:bg-cyan-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 mx-auto"
           >
             <FiDownload size={20} />
-            <span className="ms-2">Resume</span>
+            <span className="ms-2">Curriculum Vitae</span>
           </motion.button>
         </div>
       </div>

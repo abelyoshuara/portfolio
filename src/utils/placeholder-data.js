@@ -3,12 +3,13 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const hero = {
   heading: "Abel Yoshuara",
   position: ["Information System", "Front-End Web Developer", "Web Developer"],
   description:
-    "I graduated from ITB STIKOM Bali with a major in Information System. Over the past two years, I have accumulated valuable experience in front-end web development. A strong passion and commitment drive me to continue looking for new opportunities to expand my knowledge in social skills and programming. I always maintain a humble attitude, have a strong sense of responsibility, and am highly self-motivated. Apart from that, I also have good adaptability and a solid work ethic. I am dedicated to excellence and creating great solutions.",
+    "I graduated from ITB STIKOM Bali with a major in Information System. Over the past two years, I have accumulated valuable experience in front-end web development. A strong passion and commitment drive me to continue looking for new opportunities to expand my knowledge in social skills and programming. I always maintain a humble attitude, have a strong sense of responsibility, and highly self-motivated. Apart from that, I also have good adaptability, enthusiasm for work, and a solid work ethic.",
   profile: heroProfile,
 };
 
@@ -18,7 +19,7 @@ export const experiences = [
     role: ["Front-End Web Developer", "Web Developer"],
     company: "ITB STIKOM Bali",
     description:
-      "Building web applications using the PHP framework, namely CodeIgniter and Laravel. Apart from that, building a 'Sistem Informasi Dosen' using the Angular frontend framework and Bootstrap as the CSS framework thereby speeding up the creation of websites that apply the Single Page Application concept.",
+      "Develop a Lecturer Information System using the Angular and Bootstrap as the CSS framework thereby speeding up the creation of websites that apply the Single Page Application concept. Apart from that, Built a PTPP System using CodeIgniter framework and Built a Laporan Sasaran Mutu System using Laravel framework.",
     technologies: ["Angular", "CodeIgniter", "Laravel", "Bootstrap", "MySQL"],
   },
   {
@@ -42,16 +43,25 @@ export const projects = [
     code: "https://github.com/abelyoshuara/dicoding-forum-app",
   },
   {
-    title: "Sistem Informasi Dosen",
+    title: "Restaurant Catalogue App",
     image: project2,
+    description:
+      "An application for showing restaurant catalogues. This application implements automation testing, image optimization, progresive web apps, and CI/CD deployment.",
+    technologies: ["Javascript", "SASS", "Webpack"],
+    demo: "https://restoay.netlify.app",
+    code: "https://github.com/abelyoshuara/restaurant-catalogue-app",
+  },
+  {
+    title: "Sistem Informasi Dosen",
+    image: project3,
     description:
       "An application for managing data related to lecturers such as updating lecturer biodata, teaching schedule info, approving final assignment titles, student searches, lecturer searches, and so on.",
     technologies: ["Angular", "Bootstrap", "jQuery", "Typescript"],
-    demo: "https://dicoding-forum-app-five.vercel.app",
+    demo: "https://youtu.be/yGjZE2E37_0",
   },
   {
     title: "Itinerary",
-    image: project3,
+    image: project4,
     description:
       "A web-based scheduling planning application. The features of this application are user authentication, travel planning management, and so on.",
     technologies: ["Laravel", "Bootstrap", "jQuery", "MySQL"],
@@ -60,7 +70,7 @@ export const projects = [
   },
   {
     title: "PTPP",
-    image: project4,
+    image: project5,
     description:
       "A platform for creating reports requesting corrective and preventive actions, the features in this application are user authentication, managing PTPP data, exporting PTPP reports, and exporting PTPP status logs.",
     technologies: ["CodeIgniter", "Bootstrap", "jQuery", "MySQL"],
