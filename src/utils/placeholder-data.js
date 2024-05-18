@@ -1,9 +1,13 @@
 import heroProfile from "../assets/hero-profile.jpg";
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.png";
-import project5 from "../assets/projects/project-5.png";
+import dicodingForum from "../assets/projects/dicoding-forum.png";
+import todo from "../assets/projects/todo.png";
+import tictactoe from "../assets/projects/tictactoe.png";
+import imageSearch from "../assets/projects/image-search.png";
+import calculator from "../assets/projects/calculator.png";
+import restaurantCatalogue from "../assets/projects/restaurant-catalogue.png";
+import sid from "../assets/projects/sid.png";
+import itinerary from "../assets/projects/itinerary.png";
+import ptpp from "../assets/projects/ptpp.png";
 
 export const hero = {
   heading: "Abel Yoshuara",
@@ -35,16 +39,59 @@ export const experiences = [
 export const projects = [
   {
     title: "Dicoding Forum",
-    image: project1,
+    image: dicodingForum,
     description:
       "A web-based Discussion Forum Application that implements Automation Testing and CI/CD. The features available in this application are user authentication, adding threads, commenting on threads, like and dislike a thread.",
-    technologies: ["React", "Tailwind", "Redux", "RTK Query", "Typescript"],
+    technologies: [
+      "React",
+      "Tailwind",
+      "Redux",
+      "RTK Query",
+      "Typescript",
+      "Vitest",
+    ],
     demo: "https://dicoding-forum-app-five.vercel.app",
     code: "https://github.com/abelyoshuara/dicoding-forum-app",
   },
   {
+    title: "Todo List App",
+    image: todo,
+    description:
+      "A simple to-do list application built using react.js. This application has the features of adding todos, deleting todos, and updating todo status.",
+    technologies: ["React", "Tailwind", "Typescript", "Vitest"],
+    demo: "https://todo-app-eight-pearl-87.vercel.app",
+    code: "https://github.com/abelyoshuara/todo-app",
+  },
+  {
+    title: "TicTacToe List App",
+    image: tictactoe,
+    description:
+      "A simple tic-tac-toe game made using react.js. This application has a move history feature that can be moved around.",
+    technologies: ["React", "Tailwind", "Typescript", "Vitest"],
+    demo: "https://tictactoe-app-beta.vercel.app",
+    code: "https://github.com/abelyoshuara/tictactoe-app",
+  },
+  {
+    title: "Image Search App",
+    image: imageSearch,
+    description:
+      "An simple image search application made using react.js. This application retrieve images from the Unsplash API. It also implements automation testing using vitest.",
+    technologies: ["React", "Tailwind", "Typescript", "Vitest"],
+    demo: "https://image-search-app-steel.vercel.app",
+    code: "https://github.com/abelyoshuara/image-search-app",
+  },
+  {
+    title: "Calculator App",
+    image: calculator,
+    description:
+      "An simple calculator application made using react.js. This application implements automation testing using vitest. It also implements CI/CD using Vercel and GitHub.",
+    technologies: ["React", "Tailwind", "Typescript", "Vitest"],
+    demo: "https://calculator-app-omega-roan.vercel.app",
+    code: "https://github.com/abelyoshuara/calculator-app",
+  },
+  {
     title: "Restaurant Catalogue App",
-    image: project2,
+    image: restaurantCatalogue,
     description:
       "An application for showing restaurant catalogues. This application implements automation testing, image optimization, progresive web apps, and CI/CD deployment.",
     technologies: ["Javascript", "SASS", "Webpack"],
@@ -53,7 +100,7 @@ export const projects = [
   },
   {
     title: "Sistem Informasi Dosen",
-    image: project3,
+    image: sid,
     description:
       "An application for managing data related to lecturers such as updating lecturer biodata, teaching schedule info, approving final assignment titles, student searches, lecturer searches, and so on.",
     technologies: ["Angular", "Bootstrap", "jQuery", "Typescript"],
@@ -61,7 +108,7 @@ export const projects = [
   },
   {
     title: "Itinerary",
-    image: project4,
+    image: itinerary,
     description:
       "A web-based scheduling planning application. The features of this application are user authentication, travel planning management, and so on.",
     technologies: ["Laravel", "Bootstrap", "jQuery", "MySQL"],
@@ -70,7 +117,7 @@ export const projects = [
   },
   {
     title: "PTPP",
-    image: project5,
+    image: ptpp,
     description:
       "A platform for creating reports requesting corrective and preventive actions, the features in this application are user authentication, managing PTPP data, exporting PTPP reports, and exporting PTPP status logs.",
     technologies: ["CodeIgniter", "Bootstrap", "jQuery", "MySQL"],
