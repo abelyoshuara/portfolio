@@ -52,15 +52,15 @@ export default function Hero() {
             {hero.description}
           </motion.p>
           <motion.a
-            href="/cv.pdf"
-            download
+            href="/resume.pdf"
+            target="_blank"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.5 }}
             className="inline-flex items-center px-5 py-2 border border-transparent rounded-lg shadow-sm text-lg font-medium text-white bg-cyan-700 hover:bg-cyan-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 mx-auto"
           >
             <FiDownload size={20} />
-            <span className="ms-2">Curriculum Vitae</span>
+            <span className="ms-2">Resume</span>
           </motion.a>
         </div>
       </div>

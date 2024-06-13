@@ -1,10 +1,5 @@
 import heroProfile from "../assets/hero-profile.jpg";
 import dicodingForum from "../assets/projects/dicoding-forum.png";
-import todo from "../assets/projects/todo.png";
-import tictactoe from "../assets/projects/tictactoe.png";
-import imageSearch from "../assets/projects/image-search.png";
-import calculator from "../assets/projects/calculator.png";
-import restaurantCatalogue from "../assets/projects/restaurant-catalogue.png";
 import sid from "../assets/projects/sid.png";
 import itinerary from "../assets/projects/itinerary.png";
 import ptpp from "../assets/projects/ptpp.png";
@@ -52,51 +47,6 @@ export const projects = [
     ],
     demo: "https://dicoding-forum-app-five.vercel.app",
     code: "https://github.com/abelyoshuara/dicoding-forum-app",
-  },
-  {
-    title: "Todo List App",
-    image: todo,
-    description:
-      "A simple to-do list application built using react.js. This application has the features of adding todos, deleting todos, and updating todo status.",
-    technologies: ["React", "Tailwind", "Typescript", "Vitest"],
-    demo: "https://todo-app-eight-pearl-87.vercel.app",
-    code: "https://github.com/abelyoshuara/todo-app",
-  },
-  {
-    title: "TicTacToe List App",
-    image: tictactoe,
-    description:
-      "A simple tic-tac-toe game made using react.js. This application has a move history feature that can be moved around.",
-    technologies: ["React", "Tailwind", "Typescript", "Vitest"],
-    demo: "https://tictactoe-app-beta.vercel.app",
-    code: "https://github.com/abelyoshuara/tictactoe-app",
-  },
-  {
-    title: "Image Search App",
-    image: imageSearch,
-    description:
-      "An simple image search application made using react.js. This application retrieve images from the Unsplash API. It also implements automation testing using vitest.",
-    technologies: ["React", "Tailwind", "Typescript", "Vitest"],
-    demo: "https://image-search-app-steel.vercel.app",
-    code: "https://github.com/abelyoshuara/image-search-app",
-  },
-  {
-    title: "Calculator App",
-    image: calculator,
-    description:
-      "An simple calculator application made using react.js. This application implements automation testing using vitest. It also implements CI/CD using Vercel and GitHub.",
-    technologies: ["React", "Tailwind", "Typescript", "Vitest"],
-    demo: "https://calculator-app-omega-roan.vercel.app",
-    code: "https://github.com/abelyoshuara/calculator-app",
-  },
-  {
-    title: "Restaurant Catalogue App",
-    image: restaurantCatalogue,
-    description:
-      "An application for showing restaurant catalogues. This application implements automation testing, image optimization, progresive web apps, and CI/CD deployment.",
-    technologies: ["Javascript", "SASS", "Webpack"],
-    demo: "https://restoay.netlify.app",
-    code: "https://github.com/abelyoshuara/restaurant-catalogue-app",
   },
   {
     title: "Sistem Informasi Dosen",

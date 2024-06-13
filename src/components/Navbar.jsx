@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
@@ -33,15 +33,6 @@ export default function Navbar() {
             target="_blank"
           >
             <FaGithub />
-          </motion.a>
-          <motion.a
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.7 }}
-            href="https://www.instagram.com/abelyoshuara"
-            target="_blank"
-          >
-            <FaInstagram />
           </motion.a>
         </div>
       </div>
