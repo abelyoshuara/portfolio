@@ -45,8 +45,8 @@ export const projects = [
       "Typescript",
       "Vitest",
     ],
-    demo: "https://dicoding-forum-app-five.vercel.app",
-    code: "https://github.com/abelyoshuara/dicoding-forum-app",
+    demo: "https://dicoding-forum-abelyoshuara.vercel.app",
+    code: "https://github.com/abelyoshuara/dicoding-forum",
   },
   {
     title: "Sistem Informasi Dosen",
