@@ -1,6 +1,7 @@
 import { FaAngular, FaBootstrap, FaLaravel, FaReact } from "react-icons/fa";
 import { SiCodeigniter, SiMysql, SiTailwindcss } from "react-icons/si";
 import { motion } from "framer-motion";
+import { FaGolang } from "react-icons/fa6";
 
 const iconVariants = (duration) => ({
   initial: {
@@ -85,6 +86,14 @@ export default function Technologies() {
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
             <FaAngular className="text-7xl text-red-500" />
+          </motion.div>
+          <motion.div
+            variants={iconVariants(1.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4"
+          >
+            <FaGolang className="text-7xl text-[#6ad6e3]" />
           </motion.div>
         </div>
       </div>
